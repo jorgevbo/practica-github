@@ -1,9 +1,21 @@
+# language: es
 
-Feature: Crear familia de personas
-  Scenario: Crear un registro
-    Given there are a person with called "Juan Perez Ejemplo"
-    And the person has a child called "Juan Domingo Perez"
-    Then "Juan Perez Ejemplo" is parent of "Juan Domingo Perez"
-  Scenario: Verificar un registro hijo
-    Given person with name "Juan Domingo Perez"
-    Then his parent is "Juan Perez Ejemplo"
+Característica: Verificar asociacion de personas
+  Feature que permite verificar que las asociaciones
+  Padre - Hijo esten funcionando correctamente en el model Person
+
+  Antecedentes:
+    Dado los datos de una familia:
+      | parent_name | child_name    |
+      | Juan Perez  | Pedro Perez   |
+      | Juan Perez  | Marta Perez   |
+      | Juan Perez  | Rodrigo Perez |
+      | Pedro Perez | Eduardo Perez |
+
+  Escenario: Verificar hijos
+    Cuando obtenemos a la persona "Juan Perez"
+    Entonces esta persona debe tener "3" hijos
+
+  Escenario: Verificar nietos
+    Cuando obtenemos a la persona "Juan Perez"
+    Entonces esta persona debe tener "1" nieto
