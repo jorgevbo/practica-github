@@ -6,6 +6,7 @@ gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 
 gem 'mysql2', '~> 0.3.18'
+gem 'nokogiri', '1.6.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -42,3 +43,8 @@ gem 'spring',        group: :development
 # 
 gem 'awesome_print', require: 'ap'
 
+# Gemas para pruebas con cucumber
+group :test do
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+end
