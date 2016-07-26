@@ -1,0 +1,17 @@
+Aplicación para el registros iniciativas
+
+
+* Necesitamos un lugar donde nuestro personal pueda registrar y proponer iniciativas que se puedan aplicar dentro de la empresa.
+* Estas iniciativas serán propuestas a votación del personal, de manera que podemos saber cuales son las que ellos considera que deben ser abordadas.
+
+* Las iniciativas son ideas que pueden ayudar a mejorar la organización, ya sea:
+  - De forma general (Ej, ideas para mejorar el ambiente de trabajo)
+  - Para departamentos o equipos específicos (ideas para mejorar la productividad del equipo)
+
+* Al momento de registrar la iniciativa, el creador debe detallar la información necesaria de forma que sus ideas sean comprensibles para los demás usuarios.
+  - Deberá definir el tipo de iniciativa de forma que se puedan saber la cantidad de total de participantes:
+    * Abierta (Toda la organización puede votar por ella)
+    * Específica (para un grupo de usuarios o un equipo) 
+  - Puede agregar etiquetas (tags) que ayuden a categorizar la iniciativa.
+  - Puede definir una fecha de inicio y fin para la votación.
+* Una vez creada la iniciativa, una persona con rol de administrador deberá revisar los datos ingresados y aprobarla para que sea publicada.
