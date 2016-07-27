@@ -42,4 +42,5 @@ gem 'spring',        group: :development
 # 
 gem 'awesome_print', require: 'ap'
 gem 'mysql2'
+gem 'pg'
 
