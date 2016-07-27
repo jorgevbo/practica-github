@@ -1,1 +1,1 @@
-archivo de ejemplo
+un archivo de ejemplo de git
