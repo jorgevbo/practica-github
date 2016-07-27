@@ -1,2 +1,2 @@
-archivo de ejemplo
-Modificacion 3
+Archivo modificado
+Una modificacion
