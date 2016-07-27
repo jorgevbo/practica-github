@@ -18,3 +18,4 @@ Aplicación para el registros iniciativas
 1111111111
 2222222222
 3333333333
+* PRUEBAS J-G
