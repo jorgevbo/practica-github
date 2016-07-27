@@ -41,4 +41,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 # 
 gem 'awesome_print', require: 'ap'
+gem 'mysql2'
 
