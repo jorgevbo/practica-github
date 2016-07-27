@@ -15,3 +15,5 @@ Aplicación para el registros iniciativas
   - Puede agregar etiquetas (tags) que ayuden a categorizar la iniciativa.
   - Puede definir una fecha de inicio y fin para la votación.
 * Una vez creada la iniciativa, una persona con rol de administrador deberá revisar los datos ingresados y aprobarla para que sea publicada.
+
+* PRUEBAS J-G
